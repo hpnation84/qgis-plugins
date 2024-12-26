@@ -15,7 +15,7 @@ This plugin provides a system to manage and update WaterGrid data directly in QG
         <author>Jin,Hong @ICTWAY COMPANY</author>
         <email>hj1014@ictway.co.kr</email>
         <upload_date>2024-12-26</upload_date>
-        <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/v1.0.3/watergrid_v1_0_3.zip</download_url>
+        <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/v1.0.3/watergrid.zip</download_url>
         <downloaded>0</downloaded>
         <rating>0</rating>
         <homepage>http://ictway.co.kr</homepage>
@@ -24,9 +24,9 @@ This plugin provides a system to manage and update WaterGrid data directly in QG
         <tags>python,database,postgis,watergrid,water management,infrastructure,utilities</tags>
         <category>Database</category>
         <changelog><![CDATA[Version 1.0.3 (2024-12-26)
-- Initial release
-- PostGIS 통합 기능 추가
-- 데이터베이스 관리 시스템 구현]]></changelog>
+            - Initial release
+            - PostGIS]]>
+        </changelog>
         <experimental>false</experimental>
         <deprecated>false</deprecated>
         <server>false</server>
