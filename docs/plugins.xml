@@ -23,7 +23,7 @@ This plugin provides a system to manage and update WaterGrid data directly in QG
         <tags>python,database,postgis,watergrid,water management,infrastructure,utilities</tags>
         <category>Database</category>
         <changelog><![CDATA[Version 1.0.4 (2024-12-26)
-            - Bugs Fix (no pip_hol,pip_hol
+            - Bugs Fix (no pip_hol,pip_hol)
             ]]>
         </changelog>
         <experimental>false</experimental>
