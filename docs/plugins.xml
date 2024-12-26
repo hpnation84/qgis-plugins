@@ -14,5 +14,8 @@
         <changelog>
             - Initial release.
         </changelog>
+        <experimental>False</experimental>
+        <tags>python database, postgis, watergrid</tags>
+        <category>Database</category>
     </pyqgis_plugin>
 </plugins>
