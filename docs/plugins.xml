@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
     <pyqgis_plugin name="WaterGrid" version="1.0.3">
+        <description><![CDATA[WaterGrid DB System
+This plugin provides a system to manage and update WaterGrid data directly in QGIS using PostGIS integration.
+
+주요 기능:
+- PostGIS 데이터베이스 연결 및 관리
+- WaterGrid 데이터 업데이트 및 관리
+- 시스템 통합 관리]]></description>
+        <about><![CDATA[This plugin provides a comprehensive system to manage and update WaterGrid data directly in QGIS using PostGIS integration. Designed for water infrastructure management and data handling.]]></about>
         <version>1.0.3</version>
         <qgis_minimum_version>3.0</qgis_minimum_version>
         <qgis_maximum_version>3.99</qgis_maximum_version>
-        <file_name>watergrid_v1_0_3.zip</file_name>
         <author>Jin,Hong @ICTWAY COMPANY</author>
+        <email>hj1014@ictway.co.kr</email>
+        <upload_date>2024-12-26</upload_date>
         <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/v1.0.3/watergrid_v1_0_3.zip</download_url>
-        <uploaded>2024-12-26</uploaded>
-        <description>WaterGrid DB System</description>
-        <about>This plugin provides a system to manage and update WaterGrid data directly in QGIS using PostGIS integration.</about>
+        <downloaded>0</downloaded>
+        <rating>0</rating>
         <homepage>http://ictway.co.kr</homepage>
         <tracker>https://github.com/hpnation84/qgis-plugins/issues</tracker>
         <repository>https://github.com/hpnation84/qgis-plugins</repository>
-        <changelog>Initial release.</changelog>
+        <tags>python,database,postgis,watergrid,water management,infrastructure,utilities</tags>
+        <category>Database</category>
+        <changelog><![CDATA[Version 1.0.3 (2024-12-26)
+- Initial release
+- PostGIS 통합 기능 추가
+- 데이터베이스 관리 시스템 구현]]></changelog>
         <experimental>false</experimental>
         <deprecated>false</deprecated>
-        <tags>python,database,postgis,watergrid</tags>
-        <category>Database</category>
         <server>false</server>
     </pyqgis_plugin>
 </plugins>
