@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-    <pyqgis_plugin name="WaterGrid">
+    <pyqgis_plugin name="WaterGrid" version="1.0.3">
         <version>1.0.3</version>
         <qgis_minimum_version>3.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99</qgis_maximum_version>
         <file_name>watergrid_v1_0_3.zip</file_name>
         <author>Jin,Hong @ICTWAY COMPANY</author>
         <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/v1.0.3/watergrid_v1_0_3.zip</download_url>
@@ -11,11 +13,11 @@
         <homepage>http://ictway.co.kr</homepage>
         <tracker>https://github.com/hpnation84/qgis-plugins/issues</tracker>
         <repository>https://github.com/hpnation84/qgis-plugins</repository>
-        <changelog>
-            - Initial release.
-        </changelog>
-        <experimental>False</experimental>
-        <tags>python database, postgis, watergrid</tags>
+        <changelog>Initial release.</changelog>
+        <experimental>false</experimental>
+        <deprecated>false</deprecated>
+        <tags>python,database,postgis,watergrid</tags>
         <category>Database</category>
+        <server>false</server>
     </pyqgis_plugin>
 </plugins>
