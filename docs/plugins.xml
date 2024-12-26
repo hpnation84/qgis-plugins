@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
     <pyqgis_plugin name="WaterGrid" version="1.0.4">
-        <description><![CDATA[WaterGrid DB System\n
-This plugin provides a system to manage and update WaterGrid data directly in QGIS using PostGIS integration.\n
-
-주요 기능:\n
-- PostGIS 데이터베이스 연결 및 관리\n
-- WaterGrid 데이터 업데이트 및 관리\n
+        <description><![CDATA[WaterGrid DB System<br>
+This plugin provides a system to manage and update WaterGrid data directly in QGIS using PostGIS integration.<br>
+주요 기능:<br>
+- PostGIS 데이터베이스 연결 및 관리<br>
+- WaterGrid 데이터 업데이트 및 관리<br>
 - 시스템 통합 관리]]></description>
         <about><![CDATA[This plugin provides a comprehensive system to manage and update WaterGrid data directly in QGIS using PostGIS integration. Designed for water infrastructure management and data handling.]]></about>
         <version>1.0.4</version>
