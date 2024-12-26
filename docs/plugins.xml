@@ -1,11 +1,18 @@
 <plugins>
-<script/>
-<pyqgis_plugin name="WaterGrid">
-<version>1.0.3</version>
-<qgis_minimum_version>3.0</qgis_minimum_version>
-<file_name>watergrid_v1_0_3.zip</file_name>
-<download_url>https://github.com/hpnation84/qgis-plugins/releases/download/v1.0.3/watergrid_v1_0_3.zip</download_url>
-<about>This plugin provides a system to manage and update WaterGrid data directly in QGIS using PostGIS integration.</about>
-<changelog> - Initial release. </changelog>
-</pyqgis_plugin>
+    <pyqgis_plugin name="WaterGrid">
+        <version>1.0.3</version>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <file_name>watergrid_v1_0_3.zip</file_name>
+        <author>Jin,Hong @ICTWAY COMPANY</author>
+        <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/v1.0.3/watergrid_v1_0_3.zip</download_url>
+        <uploaded>2024-12-26</uploaded>
+        <description>WaterGrid DB System</description>
+        <about>This plugin provides a system to manage and update WaterGrid data directly in QGIS using PostGIS integration.</about>
+        <homepage>http://ictway.co.kr</homepage>
+        <tracker>https://github.com/hpnation84/qgis-plugins/issues</tracker>
+        <repository>https://github.com/hpnation84/qgis-plugins</repository>
+        <changelog>
+            - Initial release.
+        </changelog>
+    </pyqgis_plugin>
 </plugins>
