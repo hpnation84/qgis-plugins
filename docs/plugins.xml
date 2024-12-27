@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
+    <!-- WaterGrid Plugin Metadata -->
     <pyqgis_plugin name="WaterGrid" version="1.0.5.1">
         <description>WaterGrid DB System. 주요 기능: PostGIS 데이터베이스 연결 및 관리.</description>
         <about><![CDATA[This plugin provides a comprehensive system to manage and update WaterGrid data directly in QGIS using PostGIS integration. Designed for water infrastructure management and data handling.]]></about>
         <version>1.0.5.1</version>
         <qgis_minimum_version>3.0</qgis_minimum_version>
         <qgis_maximum_version>3.99</qgis_maximum_version>
-        <author>Jin,Hong @ICTWAY COMPANY</author>
+        <author>Jin, Hong @ICTWAY COMPANY</author>
         <email>hj1014@ictway.co.kr</email>
         <upload_date>2024-12-27</upload_date>
         <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/v1.0.5.1/watergrid.zip</download_url>
@@ -17,15 +18,44 @@
         <repository>https://github.com/hpnation84/qgis-plugins</repository>
         <tags>python,database,postgis,watergrid,water management,infrastructure,utilities</tags>
         <category>Database</category>
-        <changelog><![CDATA[Version 1.0.5.1 (2024-12-27)
-            - Box conner miter modify
-            [Version 1.0.5 (2024-12-27)
-            - add boxtool
-            [Version 1.0.4.1 (2024-12-26)
-            - File Update Code Modify
-            [Version 1.0.4 (2024-12-26)
-            - Bugs Fix (no pip_hol,pip_hol)
-            ]]>
+        <changelog><![CDATA[
+            Version 1.0.5.1 (2024-12-27)
+            - Box corner miter modified
+            Version 1.0.5 (2024-12-27)
+            - Added boxtool
+            Version 1.0.4.1 (2024-12-26)
+            - File update code modified
+            Version 1.0.4 (2024-12-26)
+            - Bug fixes (no pip_hol, pip_hol)
+        ]]>
+        </changelog>
+        <experimental>false</experimental>
+        <deprecated>false</deprecated>
+        <server>false</server>
+    </pyqgis_plugin>
+
+    <!-- RoadView Plugin Metadata -->
+    <pyqgis_plugin name="RoadView" version="1.0">
+        <description>QGIS 플러그인을 통해 도로 뷰를 제공합니다.</description>
+        <about><![CDATA[이 플러그인은 도로 뷰를 웹 브라우저로 표시합니다. PyQtWebEngine 설치가 필요합니다.]]></about>
+        <version>1.0</version>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99</qgis_maximum_version>
+        <author>Jin, Hong @ICTWAY Company</author>
+        <email>hj1014@ictway.co.kr</email>
+        <upload_date>2024-12-27</upload_date>
+        <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/v1.0/roadview.zip</download_url>
+        <downloaded>0</downloaded>
+        <rating>0</rating>
+        <homepage>http://www.ictway.co.kr</homepage>
+        <tracker>https://github.com/hpnation84/qgis-plugins/issues</tracker>
+        <repository>https://github.com/hpnation84/qgis-plugins</repository>
+        <tags>roadview, webengine, map, qgis-plugin</tags>
+        <category>Web</category>
+        <changelog><![CDATA[
+            Version 1.0 (2024-12-27)
+            - Initial release
+        ]]>
         </changelog>
         <experimental>false</experimental>
         <deprecated>false</deprecated>
