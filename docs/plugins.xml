@@ -35,7 +35,7 @@
     </pyqgis_plugin>
 
     <!-- RoadView Plugin Metadata -->
-    <pyqgis_plugin name="RoadView" version="1.0.1">
+    <pyqgis_plugin name="RoadView" version="1.0.2">
         <description>QGIS 플러그인을 통해 도로 뷰를 제공합니다.</description>
         <about><![CDATA[이 플러그인은 도로 뷰를 웹 브라우저로 표시합니다. PyQtWebEngine 설치가 필요합니다.]]></about>
         <version>1.0.1</version>
@@ -44,7 +44,7 @@
         <author>Jin, Hong @ICTWAY Company</author>
         <email>hj1014@ictway.co.kr</email>
         <upload_date>2024-12-27</upload_date>
-        <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/maproadview-v1.0.1/roadview.zip</download_url>
+        <download_url>https://github.com/hpnation84/qgis-plugins/releases/download/maproadview-v1.0.2/roadview.zip</download_url>
         <downloaded>0</downloaded>
         <rating>0</rating>
         <homepage>http://www.ictway.co.kr</homepage>
@@ -52,7 +52,11 @@
         <repository>https://github.com/hpnation84/qgis-plugins</repository>
         <tags>roadview, webengine, map, qgis-plugin</tags>
         <category>Web</category>
-        <changelog><![CDATA[Version 1.0.1 (2024-12-27)
+        <changelog><![CDATA
+            [Version 1.0.2 (2025-01-23)
+            - ADD Auto Update System (BugFix)
+            ]            
+            [Version 1.0.1 (2024-12-27)
             - ADD Auto Update System
             ]            
             [Version 1.0 (2024-12-27)
